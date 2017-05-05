@@ -12,9 +12,7 @@
 #include <string.h>
 #include <getopt.h>
 
-/* printer included memory.h */
-/* printer is mostly for debug crap */
-/* once done debugging replace it with memory.h */
+/* Includes all the required functions for program */
 #include "memory.h" 
 
 /* Extern declarations: */
@@ -24,7 +22,7 @@ extern  char    *optarg;
 
 
 
-/* PLACEHOLDER */
+/* Driver function for Memory simulation */
 int main(int argc, char** argv){
 
 	char input;
